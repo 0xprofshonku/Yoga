@@ -1,0 +1,29 @@
+.navbar{
+    width:90%;
+    max-width:200px;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:25px;
+    align-items:center;
+}
+.hero h1{
+    font-size: 60px;
+    font-family:  Verdana, Arial, Tahoma, Serif;
+    color:rgb(255, 153, 0);
+}
+.hero p{
+    color:rgb(11, 108, 121);
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+.hero h2{
+    font-size: 50px;
+    font-family:  Verdana, Arial, Tahoma, Serif;
+    color:rgb(255, 153, 0);
+}
