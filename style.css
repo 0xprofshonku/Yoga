@@ -1,3 +1,19 @@
+*{
+    margin:2%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(236, 234, 208);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar{
     width:90%;
     max-width:200px;
@@ -12,8 +28,16 @@
     gap:25px;
     align-items:center;
 }
+.nav-links a{
+    font-size:20px;
+    font-weight: 600;
+    color:rgb(129, 40, 28);
+}
+.nav-links a:hover{
+    color:rgb(129, 90, 83);
+}
 .hero h1{
-    font-size: 60px;
+    font-size: 50px;
     font-family:  Verdana, Arial, Tahoma, Serif;
     color:rgb(255, 153, 0);
 }
@@ -23,7 +47,7 @@
     font-family: Georgia, serif;
 }
 .hero h2{
-    font-size: 50px;
+    font-size: 40px;
     font-family:  Verdana, Arial, Tahoma, Serif;
-    color:rgb(255, 153, 0);
+    color: rgb(82, 4, 82);
 }
